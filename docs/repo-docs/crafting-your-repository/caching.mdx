@@ -9,7 +9,7 @@ import { Callout } from '#/components/callout';
 
 Turborepo uses caching to speed up builds, ensuring you **never do the same work twice**. When your task is cacheable, Turborepo will restore the results of your task from cache using a fingerprint from the first time the task ran.
 
-![12 tasks are being ran in 3 packages, resulting in a ">>> FULL TURBO" cache hit. The total time it takes to restore these tasks from cache is 80 milliseconds.](/images/docs/why-turborepo-solution.png)
+![12 tasks are being run in 3 packages, resulting in a ">>> FULL TURBO" cache hit. The total time it takes to restore these tasks from cache is 80 milliseconds.](/images/docs/why-turborepo-solution.png)  
 
 Turborepo's caching results in significant time savings when working locally - and is even more powerful when [Remote Caching](/repo/docs/core-concepts/remote-caching) is enabled, sharing a cache among your entire team and CI.
 
@@ -79,7 +79,7 @@ This will result in a cache miss, since you've never ran `turbo` before with thi
 
 Run `turbo build` again. You will see a message like this:
 
-![A terminal window showing two tasks that have been ran through `turbo`. They successfully complete in 116 milliseconds.](/images/docs/full-turbo.png)
+![A terminal window showing two tasks that have been run through `turbo`. They successfully complete in 116 milliseconds.](/images/docs/full-turbo.png)
 
 </Step>
 
